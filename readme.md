@@ -132,8 +132,8 @@ listaCompletaFN-OT = {
     fn:{
         nome: Pré consulta online
         description:{
-            eu posso conectar vc com algum medico ou enfermeiro para poder te fazer uma pre avaliação e te passar um parecer concelhos e dicas
-            basta vc me chamar dizendo "quero uma consulta rapida"
+            eu posso conectar vc com algum medico ou enfermeiro para poder te fazer uma pre avaliação 
+            e te passar um parecer concelhos e dicas basta vc me chamar dizendo "quero uma consulta rapida"
             eu lhe farei uma serie de perguntas e depois enviarei suas resposta para um de nossos medicos cadastrados 
             que avaliaram suas resposta e te aconcelharam lembrando q isso nao serve como uma consulta oficial 
             em muitos dos casos o melhor a se fazer é direto em um medico 
@@ -163,7 +163,8 @@ listaCompletaFN-OT = {
         function:{
             gravar informações onde o usuario possa resgatalas depois
             codigos:{
-                "lembra [oq ele qer lembrar] [informação]" - guarda na memoria algum lembrete ex: lembra rua do joao rua ari barbosa 56
+                "lembra [oq ele qer lembrar] [informação]" - guarda na memoria algum lembrete 
+                ex: lembra rua do joao rua ari barbosa 56
                 facilitadores:{
                     lembra [infomalçao direta] - lembra ficar em casa
                 }
