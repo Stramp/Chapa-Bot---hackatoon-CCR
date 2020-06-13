@@ -11,7 +11,8 @@ FuiInstalado:{
     euFalo:{
         "Ola (nome do cara) eu sou OptmusTruk sou robo pessoal! [emoticon]"
 
-        "Eu estou aqui pra facilitar sua vida e te ajudar em varias coisas, basta vc abrir nossa conversa e perguntar algo. 
+        "Eu estou aqui pra facilitar sua vida e te ajudar em varias coisas, 
+        basta vc abrir nossa conversa e perguntar algo. 
         Vamos ver um exemplo?"
 
         "pergunte me por exemplo: como ta o clima ? "
@@ -19,7 +20,8 @@ FuiInstalado:{
     eleRespondeo:{
         Aqui varias coisas podem ocorrer como o jeito q ele vai responder as resposta em si 
         mas no geral ele vai devolver a pergunta ate com algumas
-        simples variações facilmente tratadas "como ta o clima?" a principio vou me basear nesse comportamento padrao. 
+        simples variações facilmente tratadas "como ta o clima?" 
+        a principio vou me basear nesse comportamento padrao. 
         euRetorno:{
             "Voce qer saber o clima de algum estado especifico ou aqui da regiao onde vc esta mesmo?"
         }
@@ -60,7 +62,8 @@ FuiInstalado:{
 
         listaResumidaFN-OT
 
-        "essas sao algumas de minhas principais funcoes para saber todas minhas funcionalidades digite funcionalidades"
+        "essas sao algumas de minhas principais funcoes para saber todas minhas funcionalidades
+        digite funcionalidades"
     }
     eleResponde:{
        'funcionalidades'
@@ -77,8 +80,11 @@ listaCompletaFN-OT = {
     fn:{
         nome: Feed de noticias das estradas (verificar fontes de conteudos)
         description:{
-            Voce pode ativar essa função dizendo pra mim q quer ativar o feed de news simplesmente digitando "at fedd" para ativar e "dt feed" para ativar
-            por padrao ele vai te mandar noticias de 1 em 1 hora. voce pode compartilhar alguma noticia q gostou em seus grupo simples me pedindo "manda pros grupos truckbrasil, caminhoesBR, familia1, amigos da estrada [nome dos grupos separdos por virgula]"
+            Voce pode ativar essa função dizendo pra mim q quer ativar o feed de news simplesmente digitando 
+            "at fedd" para ativar e "dt feed" para ativar
+            por padrao ele vai te mandar noticias de 1 em 1 hora. voce pode compartilhar alguma noticia q gostou 
+            em seus grupo simples me pedindo "manda pros grupos truckbrasil, caminhoesBR, familia1, 
+            amigos da estrada [nome dos grupos separdos por virgula]"
             lembrando q vc acumula pontos sempre q compartilha uma noticia com seus amigos =D
         }
         function:{
@@ -101,8 +107,10 @@ listaCompletaFN-OT = {
     fn:{
         nome:Clima/Tempo meteorologia
         description:{
-           Com seu comando eu consigo buscar o clima do seu local ou de algum estado especifico para ate os proximos 5 dias mas vc pode escolher só de hj ou a qtd q quiser ate no maximo 5
-           vc pode ja me dizer direto exemplo "ver o clima de (nome do estado)" ou "ver o clima da minha regiao" ou "ver o clima de outro lugar" - nesse caso eu te retorno a lista de todos estados brasileiros para vc escolher
+           Com seu comando eu consigo buscar o clima do seu local ou de algum estado especifico para ate os 
+           proximos 5 dias mas vc pode escolher só de hj ou a qtd q quiser ate no maximo 5
+           vc pode ja me dizer direto exemplo "ver o clima de (nome do estado)" ou "ver o clima da minha regiao" ou 
+           "ver o clima de outro lugar" - nesse caso eu te retorno a lista de todos estados brasileiros para vc escolher
         }
         function:{
             apos receber o local da pesquisa pesquiso a localização em alguma api e retorno para ele
