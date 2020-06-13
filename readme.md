@@ -10,12 +10,16 @@ FuiInstalado:{
     vou me apresentar dizendo q sou OptmusTruck seu robo pessoal e dizer as coisas q eu posso fazer por ele 
     euFalo:{
         "Ola (nome do cara) eu sou OptmusTruk sou robo pessoal! [emoticon]"
-        "Eu estou aqui pra facilitar sua vida e te ajudar em varias coisas, basta vc abrir nossa conversa e perguntar algo. Vamos ver um exemplo?"
+
+        "Eu estou aqui pra facilitar sua vida e te ajudar em varias coisas, basta vc abrir nossa conversa e perguntar algo. 
+        Vamos ver um exemplo?"
+
         "pergunte me por exemplo: como ta o clima ? "
     }
     eleRespondeo:{
-        Aqui varias coisas podem ocorrer como o jeito q ele vai responder as resposta em si mas no geral ele vai devolver a pergunta ate com algumas
-        simples variações facilmente tratadas "como ta o clima?" a principio vou me basear   nesse comportamento padrao. 
+        Aqui varias coisas podem ocorrer como o jeito q ele vai responder as resposta em si 
+        mas no geral ele vai devolver a pergunta ate com algumas
+        simples variações facilmente tratadas "como ta o clima?" a principio vou me basear nesse comportamento padrao. 
         euRetorno:{
             "Voce qer saber o clima de algum estado especifico ou aqui da regiao onde vc esta mesmo?"
         }
@@ -23,6 +27,7 @@ FuiInstalado:{
             'Sao paulo ou SP'
             euRetorno:{
                 "A previsao para os prosximos dias em Sao paulo é :"
+
                 "hj -> 25g chuva forte"
                 "amanha -> 27g sol e chuva"
                 "deois de amanha -> 26g sol"
@@ -31,12 +36,14 @@ FuiInstalado:{
             'de outro lugar'
             euRetorno:{`
                 - lista"UF"
+
                 "qual estado vc quer saber como ta o clima?"
             }
             eleRetorna:{
                 'Sao paulo ou SP'
                 euRetorno:{
                     "A previsao para os prosximos dias em Sao paulo é :"
+
                     "hj -> 25g chuva forte"
                     "amanha -> 27g sol e chuva"
                     "deois de amanha -> 26g sol"
@@ -45,31 +52,27 @@ FuiInstalado:{
         }
     }
     apos isso eu digo = "Viu como é facil ? " e listo ele algumas de minhas funcionalidades
-        
+    euFalo:{
+        "Viu como é Facil ?"
+
+        "Mas devo confessar q eu ainda nao estou na minha melhor forma depois do ataque dos decepticons,
+        entao estou com minhas funcionalidades reduzidas. Vou alista abaixo algumas delas"
+
+        listaResumidaFN-OT
+
+        "essas sao algumas de minhas principais funcoes para saber todas minhas funcionalidades digite funcionalidades"
+    }
+    eleResponde:{
+       'funcionalidades'
+       euRetorno:{
+            "Essa minha lista"
+            - listaCompletaFN-OT
+       }
+    }
 }
 ```
     
-
-
-
-
-
-    apos isso eu digo = "Viu como é facil ? " e listo ele algumas de minhas funcionalidades
-    ex:[
-        "Viu como é Facil ?"
-        "Mas devo confessar q eu ainda nao estou na minha melhor forma depois do ataque dos decepticons, /n
-        entao estou com minhas funcionalidades reduzidas. Vou alista abaixo algumas delas"
-        listaResumidaFN-OT
-        "essas sao algumas de minhas principais funcoes para saber todas minhas funcionalidades digite funcionalidades"
-    ] ->ele responde ("funcionalidades"){
-        eu retorno[
-            listaCompletaFN-OT
-        ]
-    } 
-    
-
-}
-
+```
 listaCompletaFN-OT = {
     fn:{
         nome: Feed de noticias das estradas (verificar fontes de conteudos)
@@ -160,6 +163,8 @@ listaCompletaFN-OT = {
         }
     }
 }
+```
+
 
 
 
