@@ -116,9 +116,9 @@ listaCompletaFN-OT = {
             apos receber o local da pesquisa pesquiso a localização em alguma api e retorno para ele
             codigos:{
                 "clima" - retorna o clima da sua localização por padrao para os proximos dias
-                "clima [dias a partir da data atual + 5]" - retonar o clima da regiao atual o numero de dias indicado
+                "clima [dias a partir da data atual + 5]" - retonar o clima da regiao atual o numero de dias
                 "clima [uf]" - retorna o clima do estado indicado
-                "clima [uf] [dias a partir da data atual + 5]" - retonar o clima do estado indicado o numero de dias indicado
+                "clima [uf] [dias a partir da data atual + 5]" - retonar o clima do estado indicado o numero de dias
                 facilitadores:{
                     "ver clima"
                     "ver clima de outro lugar"
