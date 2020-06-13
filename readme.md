@@ -5,18 +5,27 @@
 
 #### Ideia 1 - FLuxo 1 (visao do chat)
 
-Fui instalado -> {
+FuiInstalado:{
     depois de 10 segs eu vou Comprimentar o cara q me adicionou.
     vou me apresentar dizendo q sou OptmusTruck seu robo pessoal e dizer as coisas q eu posso fazer por ele 
-    ex:[
+    euFalo:{
         "Ola (nome do cara) eu sou OptmusTruk sou robo pessoal! [emoticon]"
         "Eu estou aqui pra facilitar sua vida e te ajudar em varias coisas, basta vc abrir nossa conversa e perguntar algo. Vamos ver um exemplo?"
         "pergunte me por exemplo: como ta o clima ? "
-    ] -> Ele respondeo (
-            Aqui varias coisas podem ocorrer como o jeito q ele vai responder as resposta em si mas no geral ele vai devolver a pergunta ate com algumas simples variações facilmente tratadas "como ta o clima?" a principio vou me basear nesse comportamento padrao.
-        ) -> eu vou perguntar onde ele qer ver o clima na sua localização ou em alguma regiao especifica
-        ex:[
+    }
+    eleRespondeo:{
+        Aqui varias coisas podem ocorrer como o jeito q ele vai responder as resposta em si mas no geral ele vai devolver a pergunta ate com algumas simples variações facilmente tratadas "como ta o clima?" a principio vou me basear   nesse comportamento padrao. 
+        euRetorno:{
             "Voce qer saber o clima de algum estado especifico ou aqui da regiao onde vc esta mesmo?"
+        }
+    }
+         
+}
+   -> Ele respondeo (
+            Aqui varias coisas podem ocorrer como o jeito q ele vai responder as resposta em si mas no geral ele vai devolver a pergunta ate com algumas simples variações facilmente tratadas "como ta o clima?" a principio vou me basear nesse comportamento padrao.
+        ) -> eu vou perguntar 
+        ex:[
+            
         ]-> ele responde ("o nome do estado tipo 'Sao paulo ou SP' ")=>{
             eu retorno=[
                 "A previsao para os prosximos dias em Sao paulo é :"
