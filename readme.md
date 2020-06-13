@@ -4,7 +4,7 @@
 ## Funcionalidades
 
 #### Ideia 1 - FLuxo 1 (visao do chat)
-[
+```
     FuiInstalado:{
         descri:{
             depois de 10 segs eu vou Comprimentar o cara q me adicionou.
@@ -24,7 +24,9 @@
         }
             
     }
-]
+```
+    
+
 
 
    -> Ele respondeo (
