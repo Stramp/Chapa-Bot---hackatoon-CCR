@@ -6,8 +6,7 @@
 #### Ideia 1 - FLuxo 1 (visao do chat)
 
 FuiInstalado:{
-    depois de 10 segs eu vou Comprimentar o cara q me adicionou.
-    vou me apresentar dizendo q sou OptmusTruck seu robo pessoal e dizer as coisas q eu posso fazer por ele 
+    
     euFalo:{
         "Ola (nome do cara) eu sou OptmusTruk sou robo pessoal! [emoticon]"
         "Eu estou aqui pra facilitar sua vida e te ajudar em varias coisas, basta vc abrir nossa conversa e perguntar algo. Vamos ver um exemplo?"
