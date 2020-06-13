@@ -11,3 +11,4 @@ async function start(client) {
             client.sendText(message.from, '👋 Olá! eu sou um BOT otario') : null
     })
 }
+
