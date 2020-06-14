@@ -5,14 +5,14 @@ const wa = require('@open-wa/wa-automate');
 
 
 const message = {
-    body: "ois",
+    body: "clima",
     from: "5513"
 }
 
 function start() {
     console.log("entrei no whatsclient");
-    wa.create().then(whats => client(whats));
-    //teste(message);
+    //wa.create().then(whats => client(whats));
+    teste(message);
     //iniciar a conexao da instancia e criar um cliente q vai ouvir os eventos do whatsapp bot
 }
 

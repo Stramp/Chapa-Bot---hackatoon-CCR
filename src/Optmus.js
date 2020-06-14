@@ -5,7 +5,7 @@
 
 
 
-exports.Saudation = {
+exports.Saudations = {
     notUser: [
         ["not oi1", "not oi2", "not oi3"],
         ["not1 oi1", "not oi2", "not oi3"],
