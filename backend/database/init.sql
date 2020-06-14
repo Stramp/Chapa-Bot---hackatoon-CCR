@@ -1,15 +1,15 @@
 --
 -- Estrutura da tabela `users`
 --
-CREATE TABLE `users` (
+CREATE TABLE `user` (
   `idUser` int(11) NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `phone` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `region` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-ALTER TABLE `users`
+ALTER TABLE `user`
   ADD PRIMARY KEY (`idUser`);
-ALTER TABLE `users`
+ALTER TABLE `user`
   MODIFY `idUser` int(11) NOT NULL AUTO_INCREMENT;
 
 
