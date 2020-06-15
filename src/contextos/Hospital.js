@@ -5,7 +5,8 @@ async function Hospital(user, msg) {
     const obj = {
         notUser: [
             [
-                "A busca por Hospitais ainda nao foi implementada, me desculpe!"
+                "A busca por Hospitais ainda nao foi implementada, me desculpe!",
+                "Não se esqueça de baixar nosso app e criar sua conta, vc ta perdendo de ganhar pontos."
             ]
         ],
         newUser: [

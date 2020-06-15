@@ -3,7 +3,8 @@ async function fnClima(msg) {
     return (`
 Previsão de hoje 14/06 -> min:15° max:19°
 Previsão de amanhã, dia 15/06 -> min:14° max:22°
-São Paulo - SP >>>>> implementando
+São Paulo - SP - DADOS FICITICIOS 
+pronto para requisição (IMPLEMENTANDO)
 `)
 }
 

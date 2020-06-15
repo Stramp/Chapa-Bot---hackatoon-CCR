@@ -6,7 +6,19 @@ async function Saudations(user, msg) {
         notUser: [
             [
                 "Olá vc ainda não esta cadastrado no meu sistema, considere baixar nosso app fazer seu cadastro e acumular pontos",
-                "Depois q baixar nosso app o TruckCare e fazer seu cadastro me chama aqui denovo. =D "
+                "Depois q baixar nosso app o TruckCare e fazer seu cadastro me chama aqui denovo. =D ",
+                "Mas posso te ajudar digite algum comando da lista:",
+                `
+"clima" para receber a meteorologia dos proximos 3 dias 
+"news" para receber de tempo em tempo noticias sobre as estradas do brasil
+"ponto de apoio" indica os pontos de apoio mais proximos a vc e suas avaliações
+"gasolina" indica postos de gasolina mais proximos de vc
+"farmacia"  indica farmacia mais proximos de vc
+"hospital"  indica hospital mais proximos de vc
+"policia"   indica policia mais proximos de vc
+vc tbm sempre pode digitar "ajuda" para receber novamente essa lista de comando!
+E "Ok" para deixa-lo em espera.
+                `
             ]
         ],
         newUser: [

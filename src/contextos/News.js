@@ -5,7 +5,8 @@ async function News(user, msg) {
     const obj = {
         notUser: [
             [
-                "ativando news -> Essa função ainda esta sendo implementada"
+                "ativando news -> Essa função ainda esta sendo implementada",
+                "Não se esqueça de baixar nosso app e criar sua conta, vc ta perdendo de ganhar pontos."
             ]
         ],
         newUser: [

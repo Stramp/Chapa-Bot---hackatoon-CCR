@@ -17,13 +17,7 @@ bd["9054"] = {
     contexto: undefined,
     step: 0
 }
-bd["5511932860501@c.us"] = {
-    nome: "1",
-    id: "5511932860501@c.us",
-    userType: 'newUser',
-    contexto: undefined,
-    step: 0
-}
+
 bd["554899724312@c.us"] = {
     nome: "1",
     id: "554899724312@c.us",
