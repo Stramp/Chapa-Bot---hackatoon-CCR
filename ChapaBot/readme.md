@@ -41,6 +41,7 @@ Gostaria de ter me aprofundado na twilio mas pela correria eu usei uma q ja conh
 `@open-wa/wa-automate` versão `^1.9.69`
 
 E javascript.
+o backend sendo feito em php a principio.
 
 
 
@@ -48,3 +49,4 @@ E javascript.
 ##  Equipe Shawee, meu time, todos jurados, mentores e participantes
 
 Rafael Costa Stramp
+Marcelo Massao
