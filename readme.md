@@ -48,5 +48,4 @@ o backend sendo feito em php a principio.
 # Obrigado
 ##  Equipe Shawee, meu time, todos jurados, mentores e participantes
 
-Rafael Costa Stramp
-Marcelo Massao
+Rafael Costa Stramp - Marcelo Massao
